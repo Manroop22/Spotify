@@ -47,7 +47,8 @@ nav ul li{
     width:70%;
     border-radius: 12 px;
     padding: 34 px;
-    background-image: url('bg.png');
+    background-image: url('cover.jpeg');
+    align-self: center;
 }
 
 .bottom{
@@ -74,11 +75,14 @@ nav ul li{
     text-align: center;
 }
 
+.songItemContainer{
+    margin-top: 200px;
+}
+
 .songItem{
     height: 50px;
     display: flex;
     background-color: white;
-    width:80%;
     color:black;
     margin: 12 px 0;
     justify-content: space-between;
@@ -87,7 +91,6 @@ nav ul li{
 }
 
 .songItem img{
-    
     width: 33px;
     height: 33px;
     margin: 25px 23 px;
@@ -97,3 +100,8 @@ nav ul li{
 .timestamp{
     margin: 0 23px;
 }
+
+.timestamp i{
+    cursor: pointer;
+}
+
